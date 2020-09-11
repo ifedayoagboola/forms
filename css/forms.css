@@ -1,0 +1,136 @@
+
+.left-div{
+    background: rgba(23,91,47,0.9);
+    color: 866211;
+    padding-top: 50px;
+    }
+    .main{
+        background: rgba(23,91,47,0.9);
+        color: 866211;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    
+    .left-div-content{
+        width: 80%;
+        margin: 0 10%;
+    
+    }
+    .left-div h4{
+        padding: 10px 0;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+    }
+    .left-div p{
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: right;
+    }
+    .right-div{
+        background-color: #fff;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .right-div h4{
+        font-family: 'Poppins', sans-serif;
+    }
+    img{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 100px;
+    }
+    .quick-form-btn{
+        display: none;
+    }
+    img>.img-fluid{
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .img-thanks{
+        width: 100%;
+    }
+    hr{
+        background-color: #fff;
+    }
+    .btn{
+        background-color: rgb(23,91,47);
+        color: #fff;
+    }
+    .btn:hover{
+        background-color: rgba(23,91,47,0.8);
+    }
+    .form-control:focus {
+        box-shadow: 0 0 5px 3px rgb(23,91,47) !important;
+    }
+    
+    .navbar {
+        padding: 0 5px 0 0;
+        background-color: #000;
+    }
+    .danger {
+        background-color: #F05050;
+        width: 200px;
+        line-height: 60px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: source sans pro; 
+        text-align: center;
+    }
+    .sponsor-logo{
+       margin-top: 50px;
+  
+    }
+    .sponsor-logo img{
+        width: 150px;
+  
+    }
+   
+   
+    
+    @media only screen and (max-width: 600px) {
+         
+            .navbar>.form-inline {
+                display: none;
+            }
+            .navbar>.navbar-brand {
+                width: 100%;
+            }
+            .right-div{
+                background-color: #fff;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .btn{
+                background-color: #F05050;
+                color: #fff;
+            }
+            .form-control:focus {
+                box-shadow: 0 0 5px 3px #F05050 !important;
+            }
+            .container {
+                margin: none;
+                padding: none;
+            }
+            .quick-form-btn{
+                display: block;
+                width: 80%;
+                padding: 5px;
+                margin: auto;
+                background-color: black;
+                color: #fff;            
+                border: none;
+                border-radius: 10px;
+                box-shadow: 0 0 5px 3px #F05050 !important;
+                font-weight: bold;
+            }
+            .quick-form-btn a{
+                text-decoration: none !important;
+                color: #fff !important;
+            }
+            .left-div p{
+               display: none;
+            }
+        
+      }
